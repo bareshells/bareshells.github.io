@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    cursor: crosshair;
-    background-color: #eaeaea;
+    background-color: #fefefe;
 }
 html{
     scroll-behavior: smooth;
@@ -13,11 +12,13 @@ html{
 .header{
     height: 100vh;
     width: 100%;
+    font-family: 'Courier New', monospace;
+    
 }
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #fefefe;
+    color: #282828;
     padding: 20px 20px;
     position: absolute;
     top: 50%;
@@ -33,4 +34,16 @@ html{
 .enter{
     height: 100vh;
     width: 100%;
+    font-family: 'Courier New', monospace;
+}
+.enter p{
+    display: inline-block;
+    text-decoration: none;
+    color: #eaeaea;
+    padding: 20px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
 }
